@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header_principal">
+        <div class="header_contenido">
+            <a href="./index.html">
+                <img src="./Images/logo.png" alt="" width="170" height="170" class="header_nav_img"/>
+            </a>
+            <nav>  
+                <ul class="header_nav_ul">
+                    <li class="header_nav_ul_li"> <a href="./index.html" class="header_nav_ul_li_a">Inicio</a> </li> 
+                    <li class="header_nav_ul_li"> <a href="./quienessomos.html" class="header_nav_ul_li_a">Quienes somos?</a> </li>
+                    <li class="header_nav_ul_li"> <a href="./productos.html" class="header_nav_ul_li_a">Productos</a> </li>
+                    <li class="header_nav_ul_li"> <a href="./contacto.html" class="header_nav_ul_li_a">Contacto</a> </li>
+                </ul>     
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="contacto_section_principal">
+            
+            <h2 class="contacto_h2">NO OLVIDES SUSCRIBIRTE A NUESTRO NEWSLETTER </h2>
+            
+            <p class="contacto_parrafo">Completa tus datos para que te contactemos:</p>        
+
+
+            <form action="" class="contacto_form">
+                <div class="contacto_form_style">
+                    
+                    <div class="contacto_form_style_div">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" />
+                    </div>
+
+                    <div class="contacto_form_style_div">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="Apellido" />
+                    </div>
+
+                    <div class="contacto_form_style_div">
+                        <label for="mail">Correo electronico:</label>
+                        <input type="email" id="mail" name="mail" placeholder="Ingrese su mail" />
+                    </div>
+
+
+                    <div class="contacto_form_style_div">    
+                        <label for="consulta">Ingrese su consulta:</label>
+                        <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Tu consulta"></textarea>
+                    </div>
+
+                    <div class="contacto_form_style_div">
+                        <label for="pais">Pais:</label>
+                        <select name="pais" id="pais">
+                            <option value="Argentina">Argentina</option>
+                            <option value="Chile">Chile</option>
+                            <option value="Uruguay">Uruguay</option>
+                            <option value="Paraguay">Paraguay</option>
+                            <option value="Bolivia">Bolivia</option>
+                            <option value="Peru">Peru</option>
+                        </select>
+                    </div>
+
+                    <div class="contacto_form_style_div">
+                        <label for="news" class="contacto_form_label">Suscribrise a newsletter</label>
+                        <input type="checkbox" id="news" name="news" placeholder="Suscribrise a newsletter" />
+                    </div>
+
+                        <button type="button" class="contaco_buttonEnviar">ENVIAR</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="contacto_mapa_section">
+            <h2 class="contacto_section_h2">VENI A VISITARNOS!</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11048.946964140376!2d-58.40315760218836!3d-34.58211569218192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9e2357ad99%3A0x82ff16915c58d173!2sAv.%20del%20Libertador%201750%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1655159617817!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        
+    </main>
+
+    <footer class="footer_principal">
+        <div>
+            <a href="./index.html">
+                <img src="./Images/logo.png" alt="" width="120" height="120" />
+            </a>
+        </div>
+
+
+        <div class="footer_redesSociales">
+            <h3> SEGUINOS EN NUESTRAS REDES SOCIALES!</h3>
+            <div>
+                <a href="https://es-la.facebook.com/" target="_blank" rel="">
+                    <img src="./Images/FB.png" alt="" width="40" height="40" class="footer_redesSociales_logos"/>
+                </a>
+                <a href="https://twitter.com/" target="_blank" rel="">
+                    <img src="./Images/TW.png" alt="" width="40" height="40" class="footer_redesSociales_logos" />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank" rel="">
+                    <img src="./Images/IG.png" alt="" width="40" height="40" class="footer_redesSociales_logos" />
+                </a>
+            </div>
+        </div>
+
+        <div class="footer_info">
+            <h3>INFORMACION UTIL</h3>
+            <p>Telefono: 0800 333 1058</p>
+            <p>Email: info@microtech.com.ar</p>
+            <p>Direccion: Av. del Libertador 1750 4to C, CABA</p>
+
+
+        </div>       
+    </footer>
+</body>
+
+
+</html>
