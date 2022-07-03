@@ -247,6 +247,35 @@
     transform: translateY(-30px);
 }
 
+.main_section_clientes_h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 45px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.main_section_clientes_img {
+    width: 190px;
+    height: 130px;
+    transition: transform 0.5s ;
+    filter: grayscale(100%);
+}
+
+.main_section_clientes_img:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+
+}
+
+.main_section_div_clientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 45px 45px 45px;
+}
+
 
 .main_h2_productos {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
