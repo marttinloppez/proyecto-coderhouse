@@ -5,10 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microtech | Soluciones informaticas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header_principal">
+    <header class="header_principal container">
         <div class="header_contenido">
             <a href="./index.html">
                 <img src="./Images/logo.png" alt="" width="170" height="170" class="header_nav_img"/>
@@ -25,41 +30,87 @@
     </header>
     
 
-    <main>
-        <div>
-           <img src="./Images/IMG_INICIO.jpg" alt="" width="100%">
-        </div>
-            
-            <h1 class="main_h1">OFERTAS DEL MES</h1>
+    <main class="container">
+        <section>
+            <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./Images/carousel 1.jpeg" class="d-block w-100 rounded" alt="Imagen carrousel 1" width="450" height="650">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/carousel 2.jpg" class="d-block w-100 rounded" alt="Imagen carrousel 2" width="450" height="650">
+                </div>
+                <div class="carousel-item">
+                    <img src="./Images/carousel 3.jpg" class="d-block w-100 rounded" alt="Imagen carrousel 3" width="450" height="650">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="Anterior">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="Siguiente">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
 
-        <section class="section_Ofertas">
-            <div class="div_Oferta">
-                <p class="titulo_Ofertas">HP ProBook 440 G8</p>
-                <img src="./Images/oferta1.jpg" alt="" width="500" height="500" class="div_index_ofertasImg" />
-                <a href="" class="boton_ofertas">COMPRAR</a>
-                <p class="parrafo_ofertas">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi sed consectetur suscipit atque exercitationem aliquam, aliquid incidunt maiores. Sunt quisquam eos optio quas eius adipisci voluptatibus quos culpa rem minima!</p>
-            </div>
-        
-            <div class="div_Oferta">
-                <p class="titulo_Ofertas">Dell Latitude 5420</p>
-                <img src="./Images/oferta2.jpeg" alt="" width="500" height="500" class="div_index_ofertasImg" />
-                <a href="" class="boton_ofertas">COMPRAR</a>
-                <p class="parrafo_ofertas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem assumenda sapiente odit ad dolorum repellendus cum, aperiam consectetur! Iste vero cupiditate quidem dicta qui. Modi, facilis vero! Qui, exercitationem maiores!</p>
-            </div>
-        
-            <div class="div_Oferta">
-                <p class="titulo_Ofertas">Lenovo Thinkpad E14</p>
-                <img src="./Images/oferta3.jpg" alt="" width="500" height="500" class="div_index_ofertasImg" />
-                <a href="" class="boton_ofertas">COMPRAR</a>
-                <p class="parrafo_ofertas"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora sunt excepturi assumenda laborum ut eos cumque voluptatum pariatur hic autem natus veniam qui, beatae corporis possimus saepe temporibus, labore blanditiis.</p>
+        <section class="text-white text-center main_h1">
+            <div class="container">
+                <h1>Los mejores fertilizantes del mercado los encontras ACA!</h1>    
             </div>
 
         </section>
+
+        
+
+        <section class="my-5">
+            
+            <div class="container">
+                <div class="row pt-3 g-3">
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center d-flex align-items-center">
+                        <article class="card card text-center efectos_tarjetas" style="width: 18rem;">
+                            <img src="./Images/oferta1.jpg" class="card-img-top" alt="oferta" height="150" width="300">
+                                <div class="card-body">
+                                    <h5 class="card-title">HP Probook 440 G8</h5>
+                                    <p class="card-text my-4">Conoce las mejores maquinas agricolas del mercado. Conocidas por su potencia y durabilidad</p>
+                                    <a href="#" class="btn btn-success btn-sm">COMPRAR</a>
+                                </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center d-flex align-items-center">
+                        <article class="card card text-center efectos_tarjetas" style="width: 18rem;">
+                            <img src="./Images/oferta2.jpeg" class="card-img-top" alt="oferta" height="150" width="300">
+                                <div class="card-body">
+                                    <h5 class="card-title">Dell Latitude 5420</h5>
+                                    <p class="card-text my-4">Los mejores insumos para tu tierra! Garantia de seguridad para que tu cosecha crezca mas fuerte</p>
+                                    <a href="#" class="btn btn-success btn-sm">COMPRAR</a>
+                                </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-sm-12 col-md-4 d-flex justify-content-center d-flex align-items-center">
+                        <article class="card card text-center efectos_tarjetas" style="width: 18rem;">
+                            <img src="./Images/oferta3.jpg" class="card-img-top" alt="oferta" height="150" width="300">
+                                <div class="card-body">
+                                    <h5 class="card-title">Lenovo Thinkpad E14</h5>
+                                    <p class="card-text my-4">La mejor tecnologia para el cuidado de la plantacion. Conoce las ultimas novedades tecnologicas</p>
+                                    <a href="#" class="btn btn-success btn-sm">COMPRAR</a>
+                                </div>
+                        </article>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+
         
     </main>
 
 
-    <footer class="footer_principal">
+    <footer class="footer_principal container">
             <div>
                 <a href="./index.html">
                     <img src="./Images/logo.png" alt="" width="120" height="120" />

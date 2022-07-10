@@ -5,11 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-    <header class="header_principal">
+    <header class="header_principal container">
         <div class="header_contenido">
             <a href="./index.html">
                 <img src="./Images/logo.png" alt="" width="170" height="170" class="header_nav_img"/>
@@ -25,58 +29,96 @@
         </div>
     </header>
 
-    <main class="main_quienesSomos">
+    <main>
+        <section>
+            <div class="container">
+                <div class="row pt-3 g-3">
+                    <div class="col-12">
+                        <article class="main_article_quienesSomos">
+                            <img src="./Images/historia.jpg" alt="" width="500" height="500" class="main_img_quienesSomos"/>
+                            <div>
+                                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
+                                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
+                            </div>
+                        </article>
+                    </div>
 
-        <article class="main_article_quienesSomos">
-            <img src="./Images/historia.jpg" alt="" width="500" height="500" class="main_img_quienesSomos"/>
-            <div>
-                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
-                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
+                    <div class="col-12">
+                        <article class="main_article_quienesSomos">
+                            <img src="./Images/mision-vision.jpg" alt="" height="500" width="500" class="main_img_quienesSomos" />
+                            <div>
+                                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
+                                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
+                            </div>
+                        </article>
+                    </div>
+                    
+                    <div class="col-12">
+                        <article class="main_article_quienesSomos">
+                            <img src="./Images/mision-vision.jpg" alt="" height="500" width="500" class="main_img_quienesSomos" />
+                            <div>
+                                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
+                                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
             </div>
-        </article>
 
-        <article class="main_article_quienesSomos">
-            <img src="./Images/mision-vision.jpg" alt="" height="500" width="500" class="main_img_quienesSomos" />
-            <div>
-                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
-                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
-            </div>
-        </article>
-
-        <article class="main_article_quienesSomos">
-            <img src="./Images/mision-vision.jpg" alt="" height="500" width="500" class="main_img_quienesSomos" />
-            <div>
-                <h2 class="main_h2_quienesSomos">HISTORIA</h2>
-                <p class="main_parrafo_quienesSomos">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem amet mollitia excepturi maiores molestias veritatis, beatae aliquam id eaque laborum consequuntur harum? Asperiores magni ipsum dolorem est error saepe. Fugit.</p>
-            </div>
-        </article>
+        </section>
 
         <section>
-            <h2 class="main_section_clientes_h2">Clientes que nos eligen</h2>
-            <div class="main_section_div_clientes">
-                <a href="https://www.dhl.com/ar-es/home.html">
-                    <img src="./Images/DHL.png" alt=""  class="main_section_clientes_img"/>
-                </a>
-                <a href="https://www.coca-cola.com.ar/">
-                    <img src="./Images/COCA COLA.png" alt=""  class="main_section_clientes_img"/>
-                </a>
-                <a href="https://www.buenosaires.gob.ar/">
-                    <img src="./Images/gobdelaciudad.jpg" alt="" class="main_section_clientes_img" />
-                </a>
-                <a href="https://www.ypf.com/Paginas/home.aspx">
-                    <img src="./Images/YPF.png" alt="" class="main_section_clientes_img"/>
-                </a>
-                <a href="https://www.mann-hummel.com/en.html">
-                    <img src="./Images/MANN HUMMEL.png" alt=""  class="main_section_clientes_img"/>
-                </a>
-                
+            <div class="container my-5">
+                <div class="py-3">
+                    <h2 class="main_section_clientes_h2">Clientes que nos eligen</h2>
+                </div>
+
+                <div class="row py-3">
+                        <div class="col-2">
+                            <a href="https://www.dhl.com/ar-es/home.html" target="_blank">
+                                <img src="./Images/DHL.png" alt=""  class="main_section_clientes_img"/>
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.coca-cola.com.ar/" target="_blank">
+                                <img src="./Images/COCA COLA.png" alt=""  class="main_section_clientes_img"/>
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.buenosaires.gob.ar/" target="_blank">
+                                <img src="./Images/gobdelaciudad.jpg" alt="" class="main_section_clientes_img" />
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.ypf.com/Paginas/home.aspx" target="_blank">
+                                <img src="./Images/YPF.png" alt="" class="main_section_clientes_img"/>
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.mann-hummel.com/en.html" target="_blank">
+                                <img src="./Images/MANN HUMMEL.png" alt=""  class="main_section_clientes_img"/>
+                            </a>
+                        </div>
+
+                        <div class="col-2">
+                            <a href="https://www.santander.com.ar/banco/online/personas" target="_blank">
+                                <img src="./Images/santander.png" alt=""  class="main_section_clientes_img"/>
+                            </a>
+                        </div>
+                        
+                   
+                </div>
             </div>
         </section>
 
     
     </main>
 
-    <footer class="footer_principal">
+    <footer class="footer_principal container mt-5">
         <div>
             <a href="./index.html">
                 <img src="./Images/logo.png" alt="" width="120" height="120" />
