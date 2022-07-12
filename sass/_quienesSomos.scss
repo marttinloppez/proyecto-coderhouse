@@ -1,0 +1,70 @@
+.main_quienesSomos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin: 100px 0px;
+    line-height: 1.5;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+
+.main_img_quienesSomos {
+    margin-right: 4%;
+    border-radius: 15px;
+}
+
+.main_parrafo_quienesSomos {
+    text-align: center;
+    justify-content: center;
+}
+
+.main_h2_quienesSomos {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.main_article_quienesSomos {
+    margin: 50px auto;
+    display: flex;
+    background-color: rgb(228, 224, 224);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px -12px #7a7c7c;
+    transition: transform 0.3s;
+    width: 100%;
+}
+
+.main_article_quienesSomos:hover {
+    transform: translateY(-30px);
+}
+
+.main_section_clientes_h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 45px 0px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.main_section_clientes_img {
+    width: 130px;
+    height: 100px;
+    transition: transform 0.5s ;
+    filter: grayscale(100%);
+}
+
+.main_section_clientes_img:hover {
+    transform: scale(1.5);
+    filter: grayscale(0%);
+
+}
+
+.main_section_div_clientes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px 45px 45px 45px;
+}

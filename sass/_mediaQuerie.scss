@@ -1,0 +1,116 @@
+@media (max-width: 768px) {
+    .header_contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .parrafo_ofertas {
+        display: none;
+    }
+
+    .section_Ofertas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_Oferta {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .div_index_ofertasImg {
+        width: 350px;
+        height: 350px;
+    }
+
+    .footer_info {
+        display: none;
+    }
+
+    .footer_principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 425px) {
+    .header_contenido {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+    }
+
+    .header_nav_img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .titulo_Ofertas {
+        display: none;
+    }
+
+    .div_Oferta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+
+    .footer_principal {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer_redesSociales h3 {
+    display: none;
+    }
+
+    .footer_redesSociales div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contacto_mapa_section {
+        display: none;
+    }
+
+    .contacto_h2 {
+        font-size: 20px;
+    }
+
+    .contacto_parrafo {
+        font-size: 15px;
+    }
+
+    .contacto_form {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+        line-height: 35px;
+        background-color: none;
+        border-radius: none;
+        box-shadow: none;
+        margin: calc(30vh - 220px) auto;
+        padding: 20px 5px;
+        max-width: calc(100vw -40px);
+        box-sizing: none;
+        font-size: 15px;
+    }
+
+    .contacto_form_style_div {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+    }
+
+    .contacto_form_style_div label {
+        display: none;
+    }
+
+}
+

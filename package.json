@@ -1,0 +1,23 @@
+{
+  "name": "revendedor-tecnologia---lopez-martin",
+  "version": "1.0.0",
+  "description": "proyecto coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marttinloppez/proyecto-coderhouse.git"
+  },
+  "author": "Martin Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marttinloppez/proyecto-coderhouse/issues"
+  },
+  "homepage": "https://github.com/marttinloppez/proyecto-coderhouse#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

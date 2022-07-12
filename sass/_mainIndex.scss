@@ -1,0 +1,40 @@
+.main_h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 10px 0px ;
+    background-color: #105046;
+    color: white;
+    margin-bottom: 3%;
+    
+}
+
+.efectos_tarjetas {
+    box-shadow: 0px 25px 50px -12px #7a7c7c;
+    transition: transform 0.3s;
+    width: 1500px;
+}
+
+
+.efectos_tarjetas:hover {
+    transform: translateY(-30px); 
+}
+
+.boton_ofertas:hover {
+    background-color: transparent;
+    border: 2px solid #105046;
+    color: #105046;
+
+}
+
+.parrafo_ofertas {
+    padding: 50px 0px;
+}
+
+.div_index_ofertasImg {
+    transition: all;
+    padding-left: 20px;
+}
+
+.div_index_ofertasImg:hover {
+    transform: scale(0.9);
+}

@@ -1,0 +1,30 @@
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    background-color: $bgFooter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 150px;
+    align-items: center;
+
+    &_redesSociales {
+        text-align: center;
+        display: grid;
+        grid-template-rows: auto;
+        justify-items: center;
+        align-items: center;
+
+        &_logos {
+            margin: 0px 15px;
+        }
+    }
+
+    &_info {
+        text-align: center;
+        display: grid;
+        align-items: center;
+    }
+}
+
+
+

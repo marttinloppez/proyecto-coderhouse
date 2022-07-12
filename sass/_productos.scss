@@ -1,0 +1,59 @@
+.main_h2_productos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    text-align: center;
+    padding: 4%;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, #105046, #04e3c2);
+}
+
+.productos_section_destacados {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 65px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+
+}
+
+.main_section_parrafo_productos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 50px;
+    margin: auto;
+}
+
+
+.main_section_img_productos {
+    padding-bottom: 20px;
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.productos_div_destacados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main_productos{
+    margin-bottom: 150px;
+}
+
+.productos_section_todos {
+    display: grid;
+    grid-template-areas: "producto producto" "producto producto"
+}
+
+.productos_div_todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
