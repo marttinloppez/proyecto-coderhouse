@@ -1,5 +1,5 @@
 .contacto_h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontPrincipal;
     font-size: 36px;
     text-align: center;
     font-weight: bold;
@@ -11,7 +11,7 @@
 }
 
 .contacto_parrafo {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontPrincipal;
     font-size: 20px;
     padding: 20px ;
     text-align: center;
@@ -19,7 +19,7 @@
 }
 
 .contacto_form {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontPrincipal;
     font-size: large;
     line-height: 35px;
     width: 440px;
@@ -57,7 +57,7 @@
 }
 
 .contacto_section_h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontPrincipal;
     font-size: 36px;
     padding: 20px;
     font-weight: bold;

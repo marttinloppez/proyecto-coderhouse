@@ -1,11 +1,10 @@
-.main_quienesSomos {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 18px;
-    margin: 100px 0px;
-    line-height: 1.5;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    
+@mixin main_quienesSomos {
+    border-radius: 15px;
+    box-shadow: 0px 25px 50px -12px #7a7c7c;
+    margin: 50px auto;
+    width: 100%;
+    background-color: rgb(228, 224, 224);
+    padding: 20px;
 }
 
 
@@ -26,14 +25,9 @@
 }
 
 .main_article_quienesSomos {
-    margin: 50px auto;
+    @include main_quienesSomos;
     display: flex;
-    background-color: rgb(228, 224, 224);
-    padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0px 25px 50px -12px #7a7c7c;
     transition: transform 0.3s;
-    width: 100%;
 }
 
 .main_article_quienesSomos:hover {
@@ -41,7 +35,7 @@
 }
 
 .main_section_clientes_h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: $fontPrincipal;
     margin: 45px 0px;
     text-align: center;
     font-size: 35px;
